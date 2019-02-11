@@ -8,7 +8,7 @@ def line(deli)
         indexplusone = index + 1
       line_currently += "#{indexplusone}. #{name} "
   end
-  puts line_currently
+  puts line_currently.chomp(" ")
 end
 end
 
